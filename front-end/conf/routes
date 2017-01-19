@@ -1,0 +1,3 @@
+GET     /product/:id      controllers.Application.getProduct(id: String)
+
+GET     /assets/*file   controllers.Assets.versioned(path = "/public", file)
